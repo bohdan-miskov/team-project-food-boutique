@@ -1,41 +1,37 @@
 <section class="products">
   <div class="container">
-    <ul class="products-list">
-      <li class="products-item">
-        <div class="products-item-image-container">
-          <img
-            src=""
-            alt=""
-            class="products-item-image"
-            width="140"
-            height="140"
-          />
-        </div>
-        <h3 class="products-subtitle">Baby Plum Tomatoes</h3>
-        <ul class="products-item-decsr-list">
-          <li class="products-item-descr-item">
-            Category:<span class="products-item-descr-item-value"
-              >Fresh Produce</span
-            >
-          </li>
-          <li class="products-item-descr-item">
-            Size:
-            <span class="products-item-descr-item-value">200 g</span>
-          </li>
-          <li class="products-item-descr-item">
-            Popularity:
-            <span class="products-item-descr-item-value">0</span>
-          </li>
-        </ul>
-        <div class="products-item-footer">
-          <p class="products-item-price">$3.99</p>
-          <button type="button" class="products-item-btn">
-            <svg class="products-item-btn-icon" width="18" height="18">
-              <use href="img/icons.svg#cart-icon"></use>
-            </svg>
-          </button>
-        </div>
-      </li>
-    </ul>
+    <ul class="products-list"></ul>
   </div>
 </section>
+
+<template id="products-card-template">
+  <li class="products-item">
+    <div class="products-item-image-container">
+      <img src="" alt="" class="products-item-image" width="140" height="140" />
+    </div>
+    <h3 class="products-subtitle">Baby Plum Tomatoes</h3>
+    <ul class="products-item-decsr-list">
+      <li class="products-item-descr-item">
+        Category:<span class="products-item-descr-item-value"
+          >Fresh Produce</span
+        >
+      </li>
+      <li class="products-item-descr-item">
+        Size:
+        <span class="products-item-descr-item-value">200 g</span>
+      </li>
+      <li class="products-item-descr-item">
+        Popularity:
+        <span class="products-item-descr-item-value">0</span>
+      </li>
+    </ul>
+    <div class="products-item-footer">
+      <p class="products-item-price">$3.99</p>
+      <button type="button" class="products-item-btn">
+        <svg class="products-item-btn-icon" width="18" height="18">
+          <use href="img/icons.svg#cart-icon"></use>
+        </svg>
+      </button>
+    </div>
+  </li>
+</template>

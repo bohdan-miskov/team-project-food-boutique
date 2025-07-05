@@ -45,7 +45,7 @@ const createPopularProductsItem = ({
   const priceEl = clone.querySelector(
     '.discount-products-item-price'
   ) as HTMLElement;
-  priceEl.textContent = price + '$';
+  priceEl.textContent = '$' + price;
 
   return clone;
 };

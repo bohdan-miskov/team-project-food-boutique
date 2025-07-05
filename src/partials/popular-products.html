@@ -1,46 +1,42 @@
 <section class="popular-products">
   <div class="container">
-    <h2 class="popular-products-title"></h2>
-    <ul class="popular-products-list">
-      
-          </ul>
-        </div>
-        <button type="button" class="popular-products-item-btn">
-          <svg class="popular-products-item-btn-icon" width="12" height="12">
-            <use href="img/icons.svg#cart-icon"></use>
-          </svg>
-        </button>
-      </li>
-    </ul>
+    <h2 class="popular-products-title">Popular products</h2>
+    <ul class="popular-products-list"></ul>
   </div>
 </section>
 
 <template id="popular-card-template">
   <li class="popular-products-item">
-  <div class="popular-products-item-image-container">
-    <img
-      src=""
-      alt=""
-      class="popular-products-item-image"
-      width="56"
-      height="56"
-    />
-  </div>
-  <div class="popular-products-item-content">
-    <h3 class="popular-products-subtitle"></h3>
-    <ul class="popular-products-item-descr-list">
-      <li class="popular-products-item-descr-item">
-        Category:
-        <span class="popular-products-item-descr-item-value"
-          ></span
-        >
-      </li>
-      <li class="popular-products-item-descr-item">
-        Size:
-        <span class="popular-products-item-descr-item-value"></span>
-      </li>
-      <li class="popular-products-item-descr-item">
-        Popularity:
-        <span class="popular-products-item-descr-item-value"></span>
-      </li>
-    </template>
+    <div class="popular-products-item-image-container">
+      <img
+        src=""
+        alt=""
+        class="popular-products-item-image"
+        width="56"
+        height="56"
+      />
+    </div>
+    <div class="popular-products-item-content">
+      <h3 class="popular-products-subtitle"></h3>
+      <ul class="popular-products-item-descr-list">
+        <li class="popular-products-item-descr-item">
+          Category:
+          <span class="popular-products-item-descr-item-value"></span>
+        </li>
+        <li class="popular-products-item-descr-item">
+          Size:
+          <span class="popular-products-item-descr-item-value"></span>
+        </li>
+        <li class="popular-products-item-descr-item">
+          Popularity:
+          <span class="popular-products-item-descr-item-value"></span>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="popular-products-item-btn">
+      <svg class="popular-products-item-btn-icon" width="12" height="12">
+        <use href="img/icons.svg#cart-icon"></use>
+      </svg>
+    </button>
+  </li>
+</template>

@@ -45,9 +45,9 @@ const createPopularProductsItem = ({
   titleEl.textContent = name;
 
   const valuesEls = clone.querySelectorAll(
-    'popular-products-item-descr-item-value'
+    '.popular-products-item-descr-item-value'
   ) as NodeListOf<HTMLElement>;
-  valuesEls[0].textContent = category;
+  valuesEls[0].textContent = category.split('_').join(' ');
   valuesEls[1].textContent = size;
   valuesEls[2].textContent = String(popularity);
 

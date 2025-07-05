@@ -6,6 +6,7 @@
         <input
           class="filters-input"
           type="text"
+          name="searchQueryInput"
           placeholder="Search for anything"
         />
         <button type="submit" class="filters-search-btn">
@@ -14,12 +15,15 @@
           </svg>
         </button>
       </div>
-      <select class="filters-select" name="filters-categories-select">
-        <option value="A-Z" selected>Categories</option>
+      <select class="filters-select" name="categoriesSelect">
+        <option value="all" selected>Categories</option>
       </select>
-      <select class="filters-select" name="filters-sort-select">
-        <option value="A-Z" selected>A to Z</option>
-        <option value="Z-A">Z to A</option>
+      <select class="filters-select" name="sortSelect">
+        <option value="popularity" selected>Popularity</option>
+        <option value="alph_asc">A to Z</option>
+        <option value="alph_desc">Z to A</option>
+        <option value="price_asc">Price: Low to High</option>
+        <option value="price_desc">Price: High to Low</option>
       </select>
     </form>
   </div>
